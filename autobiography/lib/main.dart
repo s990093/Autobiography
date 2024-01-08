@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My Portfolio'),
+        title: const Text('賴泓瑋的自傳'),
       ),
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
@@ -56,15 +56,15 @@ class _HomePageState extends State<HomePage> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Introduction',
+            label: '介紹',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.work),
-            label: 'Projects',
+            label: '專案',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz),
-            label: 'Other',
+            label: '其他',
           ),
         ],
       ),
