@@ -12,6 +12,7 @@ class IntroductionPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            SizedBox(height: 30),
             IntroductionWidget(),
             SizedBox(height: 20),
             // Your Life Photo
